@@ -1,9 +1,14 @@
 fn main() {
     let s = String::from("Hello World");
+
     take_ownership(s);
+
     // println!("s: {}", s);
+
     let x = 5;
+
     make_copy(x);
+
     println!("x: {}", x);
 }
 
